@@ -1,6 +1,33 @@
-# bankmanagementsystem
+# Bank Management System with ATM Interface (Java & MySQL)
 
-Project Description
-This project is a Bank Management System featuring a simulated ATM-style GUI interface, designed to mimic real-world banking operations. It is developed in Java using NetBeans and uses MySQL for backend data management.
+This is a Bank Management System designed with a realistic ATM-style GUI using Java (Swing in NetBeans) and MySQL database. It enables users to perform standard banking operations in a secure and interactive environment.
 
-The system allows users to sign up, log in, and perform various banking activities such as depositing money, withdrawing cash, fast cash, checking balance, changing PIN, and viewing mini statements. A multi-step signup process ensures secure account registration, and all transactions are logged with timestamps.
+## 💻 Technologies Used
+- Java (Swing GUI)
+- NetBeans IDE
+- MySQL
+- JDBC
+
+## 🔐 Features
+- User Login System
+- Deposit & Withdrawal
+- Fast Cash
+- PIN Change
+- Mini Statement
+- Balance Enquiry
+- Exit Option
+
+## 📁 Folder Structure
+- /src — Source code
+- /nbproject — NetBeans project files
+- /screenshots — GUI images
+- bank.sql — Database structure file
+
+## ▶️ How to Run
+1. Open the project in NetBeans.
+2. Set up MySQL using the provided script.
+3. Update DB connection in the code.
+4. Run the app to start the ATM simulation.
+
+## 📎 License
+For educational and personal use only.
